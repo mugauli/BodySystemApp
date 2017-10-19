@@ -9,7 +9,7 @@ using Android.App;
 [assembly: AssemblyTitle("BodySystemApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Grapesoft")]
 [assembly: AssemblyProduct("BodySystemApp")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]

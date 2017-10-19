@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="90"
+    android:background="@drawable/bgcontactor">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="30">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout10"
+            android:layout_gravity="center">
+            <ImageView
+                android:src="@drawable/evento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView1"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="56"
+        android:padding="10px">
+        <TextView
+            android:text="Nombres:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNombres" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="1px"
+            android:minHeight="2px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/linearLayout21" />
+        <TextView
+            android:text="Apellidos:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvApellidos" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="1px"
+            android:minHeight="2px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/linearLayout22" />
+        <TextView
+            android:text="Edad:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEdad" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="1px"
+            android:minHeight="2px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/linearLayout23" />
+        <TextView
+            android:text="Sexo:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSexo" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="1px"
+            android:minHeight="2px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/linearLayout24" />
+        <TextView
+            android:text="Empresa:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv5" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmpresa" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="1px"
+            android:minHeight="2px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/linearLayout25" />
+        <TextView
+            android:text="Cargo:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv6" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCargo" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="1px"
+            android:minHeight="2px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/linearLayout26" />
+        <TextView
+            android:text="País:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv7" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPais" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="1px"
+            android:minHeight="2px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/linearLayout27" />
+
+      <TextView
+           android:text="Estado:"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/tv8" />
+      <TextView
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/tvEstado" />
+      <LinearLayout
+          android:orientation="vertical"
+          android:minWidth="1px"
+          android:minHeight="2px"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@android:color/white"
+          android:id="@+id/linearLayout28" />
+      
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="4"
+        android:weightSum="10"
+        android:layout_gravity="bottom">
+        <Button
+            android:text="Cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancelar"
+            android:layout_weight="5"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/white" />
+        <Button
+            android:text="Guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGuardar"
+            android:layout_weight="5"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
